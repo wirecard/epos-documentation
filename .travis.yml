@@ -1,0 +1,29 @@
+language: ruby
+git:
+  depth: false
+install:
+- gem install bundler
+- bundle install
+script:
+- bash build.sh
+deploy:
+- provider: s3
+  access_key_id: $S3ACCESSID
+  secret_access_key: $S3ACCESSKEY
+  bucket: epos-docs-public
+  region: eu-central-1
+  skip_cleanup: true
+  local-dir: /tmp/build
+  on:
+    branch: master
+- provider: s3
+  access_key_id: $S3ACCESSID
+  secret_access_key: $S3ACCESSKEY
+  bucket: epos-docs-internal
+  region: eu-central-1
+  skip_cleanup: true
+  local-dir: /tmp/build
+  upload-dir: $TRAVIS_BRANCH
+  on:
+    all_branches: true
+

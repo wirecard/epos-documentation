@@ -1,0 +1,19 @@
+:Date: $Date$
+:Revision: $Id$
+
+:toc-title:
+:icons: font
+
+:stylesdir: css
+:stylesheet: main.css
+
+ifdef::backend-pdf[:source-highlighter: rouge]
+
+:sectanchors:
+:sectlinks:
+
+include::shortcuts.adoc[]
+
+= ePOS Documentation
+
+include::chapters/home.adoc[]
