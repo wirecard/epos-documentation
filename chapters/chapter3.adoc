@@ -1,3 +1,7 @@
 == Showcase
 
 You can see our documentation here: Wirecard/link:https://doc.wirecard.com[Docs]
+
+Helpful blog: link:https://mrhaki.blogspot.com/search/label/Awesome%3AAsciidoctor[mrhaki/asciidoctor]
+
+//-
