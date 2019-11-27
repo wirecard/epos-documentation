@@ -7,6 +7,14 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 NOTE: This is a note.
 
+TIP: This is a tip.
+
+WARNING: This is a warning.
+
+CAUTION: This is a caution.
+
+IMPORTANT: This is a important.
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec dui id nulla consequat porta eget auctor felis. Ut sit amet lacus vestibulum, dignissim metus quis, porta urna. Nulla iaculis venenatis purus, id elementum sem ullamcorper quis. Suspendisse nibh lorem, placerat eget felis vitae, auctor finibus magna. Ut semper metus non ex elementum, eget faucibus orci sagittis. Maecenas a lorem gravida, volutpat nulla vel, bibendum tellus. Curabitur non arcu lectus. Sed in lorem eros. Pellentesque et molestie lectus. Etiam at enim nec metus placerat consectetur. Pellentesque fermentum justo ac odio iaculis finibus. Aenean at arcu vel velit pharetra dapibus. Duis ornare libero sit amet tristique feugiat.
 
 In facilisis maximus arcu. Vivamus sit amet ligula ut nibh lacinia ornare in id est. Vestibulum aliquam eu nibh nec sodales. Sed vehicula nisl sit amet metus auctor viverra eu nec lacus. Proin ut pulvinar diam. Etiam eget erat ac dui lobortis accumsan. Etiam hendrerit tellus eu pharetra mollis. Phasellus ac tortor sed arcu accumsan efficitur. Etiam vehicula sem ac metus sodales, gravida venenatis mi vehicula. Aliquam sed odio leo.
