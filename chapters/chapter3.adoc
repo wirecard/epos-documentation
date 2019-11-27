@@ -1,0 +1,3 @@
+== Showcase
+
+You can see our documentation here: Wirecard/link:https://doc.wirecard.com[Docs]

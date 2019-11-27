@@ -14,6 +14,8 @@ ifdef::backend-pdf[:source-highlighter: rouge]
 
 include::shortcuts.adoc[]
 
-= ePOS Documentation
+= {name-abbrev} Documentation
 
 include::chapters/home.adoc[]
+include::chapters/chapter2.adoc[]
+include::chapters/chapter3.adoc[]

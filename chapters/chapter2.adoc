@@ -1,0 +1,17 @@
+== Example
+
+.*Lorem*:
+* elit
+* ut
+* aliquam
+* purus
+* sit
+
+.Ipsum:
+. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+. Vivamus vehicula ligula sed libero efficitur, in condimentum lorem tempus.
+. Praesent ut nunc nec mi vulputate viverra nec in ex.
+. Mauris pellentesque ligula sit amet aliquet cursus.
+. Nulla sagittis dolor id nibh ullamcorper elementum.
+
+//-
