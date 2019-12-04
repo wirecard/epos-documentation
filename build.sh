@@ -9,3 +9,5 @@ if [[ "$?" -ne 0 ]]; then
     echo "::error file=build.sh::Build failed."
     exit 1
 fi
+
+echo "Build done!"
