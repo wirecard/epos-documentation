@@ -9,13 +9,28 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+
     - name: Set up Ruby 2.6
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
+
     - name: Install dependencies
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-    - name: Build documentation
-      run: bash build.sh
+
+    - name: Build
+      run: |
+        bash build.sh
+        mkdir -p public/
+        cp -r css/ js/ public/
+        mv *.html public/
+
+    - name: Deploy (Github Pages)
+      uses: crazy-max/ghaction-github-pages@v1.2.5
+      with:
+        target_branch: gh-pages
+        build_dir: public
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
