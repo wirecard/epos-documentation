@@ -24,7 +24,7 @@ jobs:
       run: |
         bash build.sh
         mkdir -p public/
-        cp -r css/ js/ public/
+        cp -r css/ public/
         mv *.html public/
 
     - name: Deploy (Github Pages)
